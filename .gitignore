@@ -1,0 +1,20 @@
+# Company Moodle repository
+moodle/
+
+# Moodle runtime data
+moodledata/
+
+# MySQL persistent data
+db-data/
+
+# Database dumps
+db/
+*.sql
+*.sql.gz
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
